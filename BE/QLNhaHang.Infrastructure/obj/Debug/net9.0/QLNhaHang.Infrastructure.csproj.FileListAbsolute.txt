@@ -1,0 +1,17 @@
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\bin\Debug\net9.0\QLNhaHang.Infrastructure.deps.json
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\bin\Debug\net9.0\QLNhaHang.Infrastructure.runtimeconfig.json
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\bin\Debug\net9.0\QLNhaHang.Infrastructure.dll
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\bin\Debug\net9.0\QLNhaHang.Infrastructure.pdb
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\bin\Debug\net9.0\QLNhaHang.Core.dll
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\bin\Debug\net9.0\QLNhaHang.Core.pdb
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.csproj.AssemblyReference.cache
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.AssemblyInfoInputs.cache
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.AssemblyInfo.cs
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.csproj.CoreCompileInputs.cache
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHan.6B4D53B4.Up2Date
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.dll
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\refint\QLNhaHang.Infrastructure.dll
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.pdb
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\QLNhaHang.Infrastructure.genruntimeconfig.cache
+F:\QLNhaHang\BE.NET\QLNhaHang.Infrastructure\obj\Debug\net9.0\ref\QLNhaHang.Infrastructure.dll

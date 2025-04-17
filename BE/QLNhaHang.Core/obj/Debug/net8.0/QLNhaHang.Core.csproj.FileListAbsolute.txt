@@ -1,0 +1,11 @@
+F:\QLNhaHang\BE\QLNhaHang.Core\bin\Debug\net8.0\QLNhaHang.Core.deps.json
+F:\QLNhaHang\BE\QLNhaHang.Core\bin\Debug\net8.0\QLNhaHang.Core.dll
+F:\QLNhaHang\BE\QLNhaHang.Core\bin\Debug\net8.0\QLNhaHang.Core.pdb
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\QLNhaHang.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\QLNhaHang.Core.AssemblyInfoInputs.cache
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\QLNhaHang.Core.AssemblyInfo.cs
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\QLNhaHang.Core.csproj.CoreCompileInputs.cache
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\QLNhaHang.Core.dll
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\refint\QLNhaHang.Core.dll
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\QLNhaHang.Core.pdb
+F:\QLNhaHang\BE\QLNhaHang.Core\obj\Debug\net8.0\ref\QLNhaHang.Core.dll

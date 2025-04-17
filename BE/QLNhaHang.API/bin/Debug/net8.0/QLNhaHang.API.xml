@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QLNhaHang.API</name>
+    </assembly>
+    <members>
+        <member name="T:QLNhaHang.API.Controllers.CreateUserDTO">
+            <summary>
+            DTO cho tạo người dùng mới
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.CreateUserDTO.Username">
+            <summary>
+            Tên đăng nhập của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.CreateUserDTO.Password">
+            <summary>
+            Mật khẩu của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.CreateUserDTO.Email">
+            <summary>
+            Email của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.CreateUserDTO.FullName">
+            <summary>
+            Họ tên đầy đủ của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.CreateUserDTO.PhoneNumber">
+            <summary>
+            Số điện thoại của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.CreateUserDTO.Role">
+            <summary>
+            Vai trò của người dùng (Admin, User, Staff)
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.CreateUserDTO.IsActive">
+            <summary>
+            Trạng thái hoạt động của người dùng
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.UpdateUserDTO">
+            <summary>
+            DTO cho cập nhật thông tin người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UpdateUserDTO.Email">
+            <summary>
+            Email của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UpdateUserDTO.FullName">
+            <summary>
+            Họ tên đầy đủ của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UpdateUserDTO.PhoneNumber">
+            <summary>
+            Số điện thoại của người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UpdateUserDTO.Role">
+            <summary>
+            Vai trò của người dùng (Admin, User, Staff)
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UpdateUserDTO.IsActive">
+            <summary>
+            Trạng thái hoạt động của người dùng
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.UserRoleUpdateDTO">
+            <summary>
+            DTO cho cập nhật vai trò người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserRoleUpdateDTO.NewRole">
+            <summary>
+            Vai trò mới cho người dùng (Admin, User, Staff)
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.UserStatusUpdateDTO">
+            <summary>
+            DTO cho cập nhật trạng thái người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserStatusUpdateDTO.IsActive">
+            <summary>
+            Trạng thái hoạt động của người dùng
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.DashboardSummaryDTO">
+            <summary>
+            DTO cho tổng quan dashboard
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.TotalRestaurants">
+            <summary>
+            Tổng số nhà hàng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.TotalTables">
+            <summary>
+            Tổng số bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.TotalUsers">
+            <summary>
+            Tổng số người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.TotalReservations">
+            <summary>
+            Tổng số đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.PendingReservations">
+            <summary>
+            Số đặt bàn đang chờ xác nhận
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.ConfirmedReservations">
+            <summary>
+            Số đặt bàn đã xác nhận
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.CancelledReservations">
+            <summary>
+            Số đặt bàn đã hủy
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DashboardSummaryDTO.CompletedReservations">
+            <summary>
+            Số đặt bàn đã hoàn thành
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.DailyReservationDTO">
+            <summary>
+            DTO cho thống kê đặt bàn theo ngày
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DailyReservationDTO.Date">
+            <summary>
+            Ngày thống kê
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.DailyReservationDTO.TotalReservations">
+            <summary>
+            Tổng số đặt bàn trong ngày
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.RestaurantReservationCountDTO">
+            <summary>
+            DTO cho thống kê đặt bàn theo nhà hàng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RestaurantReservationCountDTO.RestaurantId">
+            <summary>
+            ID nhà hàng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RestaurantReservationCountDTO.RestaurantName">
+            <summary>
+            Tên nhà hàng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RestaurantReservationCountDTO.ReservationCount">
+            <summary>
+            Số lượng đặt bàn
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.ReservationStatisticsDTO">
+            <summary>
+            DTO cho thống kê đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationStatisticsDTO.DailyReservations">
+            <summary>
+            Thống kê đặt bàn theo ngày
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationStatisticsDTO.RestaurantReservations">
+            <summary>
+            Thống kê đặt bàn theo nhà hàng
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.RecentReservationDTO">
+            <summary>
+            DTO cho thông tin đặt bàn gần đây
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentReservationDTO.ReservationId">
+            <summary>
+            ID đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentReservationDTO.UserName">
+            <summary>
+            Tên người đặt
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentReservationDTO.RestaurantName">
+            <summary>
+            Tên nhà hàng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentReservationDTO.ReservationDate">
+            <summary>
+            Ngày đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentReservationDTO.Status">
+            <summary>
+            Trạng thái đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentReservationDTO.CreatedAt">
+            <summary>
+            Thời gian tạo đặt bàn
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.RecentUserDTO">
+            <summary>
+            DTO cho thông tin người dùng gần đây
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentUserDTO.UserId">
+            <summary>
+            ID người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentUserDTO.Username">
+            <summary>
+            Tên đăng nhập
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentUserDTO.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentUserDTO.CreatedAt">
+            <summary>
+            Thời gian tạo tài khoản
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentUserDTO.LastLogin">
+            <summary>
+            Thời gian đăng nhập gần nhất
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.RecentActivityDTO">
+            <summary>
+            DTO cho hoạt động gần đây
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentActivityDTO.RecentReservations">
+            <summary>
+            Danh sách đặt bàn gần đây
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.RecentActivityDTO.RecentUsers">
+            <summary>
+            Danh sách người dùng gần đây
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.ReservationResponseDTO">
+            <summary>
+            DTO cho thông tin đặt bàn chi tiết
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.ReservationId">
+            <summary>
+            ID đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.ReservationDate">
+            <summary>
+            Ngày đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.StartTime">
+            <summary>
+            Thời gian bắt đầu
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.EndTime">
+            <summary>
+            Thời gian kết thúc
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.GuestCount">
+            <summary>
+            Số lượng khách
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.ContactPhone">
+            <summary>
+            Số điện thoại liên hệ
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.Notes">
+            <summary>
+            Ghi chú
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.Status">
+            <summary>
+            Trạng thái đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.CreatedAt">
+            <summary>
+            Thời gian tạo đặt bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.UserId">
+            <summary>
+            ID người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.UserName">
+            <summary>
+            Tên người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.RestaurantId">
+            <summary>
+            ID nhà hàng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.RestaurantName">
+            <summary>
+            Tên nhà hàng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.TableId">
+            <summary>
+            ID bàn
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.ReservationResponseDTO.TableName">
+            <summary>
+            Tên bàn
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Controllers.UserResponseDTO">
+            <summary>
+            DTO cho thông tin người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.UserId">
+            <summary>
+            ID người dùng
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.Username">
+            <summary>
+            Tên đăng nhập
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.FullName">
+            <summary>
+            Họ tên đầy đủ
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.PhoneNumber">
+            <summary>
+            Số điện thoại
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.CreatedAt">
+            <summary>
+            Thời gian tạo tài khoản
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.LastLogin">
+            <summary>
+            Thời gian đăng nhập gần nhất
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.IsActive">
+            <summary>
+            Trạng thái hoạt động
+            </summary>
+        </member>
+        <member name="P:QLNhaHang.API.Controllers.UserResponseDTO.Role">
+            <summary>
+            Vai trò
+            </summary>
+        </member>
+        <member name="T:QLNhaHang.API.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:QLNhaHang.API.Migrations.AddUserEntity">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.AddUserEntity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.AddUserEntity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.AddUserEntity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:QLNhaHang.API.Migrations.UpdateDatabase">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.UpdateDatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.UpdateDatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNhaHang.API.Migrations.UpdateDatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
